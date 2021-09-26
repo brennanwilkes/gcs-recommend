@@ -1,6 +1,5 @@
 import React from 'react';
 import "./app.scss";
-import "./scss/index.scss";
 import {HrWrapper} from "./HrWrapper/HrWrapper";
 import {SongDisplay, SongDisplayFromOptions} from "./SongDisplay/SongDisplay";
 import { createPlaylist, localStorageKey, spotifyCachedAuth, SpotifyToken, recommend, RecommendOptions } from 'gcs-util';
